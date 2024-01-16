@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de connexion</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <main class="main">
+<nav class="menue">
+    <img src="logo2.png" alt="logo" width="210">
+<ul>
+    <li>lorem</li>
+    <li>lorem</li>
+    <li>lorem</li>
+    <li>lorem</li>
+    <li>lorem</li>
+</ul>
+</nav>
+<section>
+    <div class="baniere">
+<h1 id="titre">connexion</h1>
+    </div>
+</section>
+<div class="arriereplan">
+    <img class="imgdev" src="imgdev.png" alt="srcset">
+<div class="formulaire"></div>
+</div>
+    </main>
+    <div class="container">
+        <h1>Bienvenue !</h1>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Se souvenir de moi</label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Se connecter</button>
+            </div>
+        </form>
+        <a href="/forgot-password">Mot de passe oublié ?</a>
+        <p>Vous n'avez pas de compte ? <a href="/register">Inscrivez-vous maintenant !</a></p>
+    </div>
+</body>
+</html>

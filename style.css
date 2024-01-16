@@ -1,0 +1,18 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: blue;
+}
+.navigation ul {
+    display:flex ;
+}
+.navigation ul li {
+    padding: 12px;
+    list-style: none;
+}
+
+li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}

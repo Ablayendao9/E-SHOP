@@ -1,0 +1,36 @@
+.menue{
+    display: flex;
+    justify-content: space-between;
+}
+.menue ul {
+display: flex;
+}
+.menue UL li {
+    padding: 20px;
+    list-style: none;
+}
+.baniere {
+    background-color: #ee762c;
+    height: 20vh;
+    color: wheat;
+   text-align:center ;
+    padding: 0,5%;
+}
+.baniere h1 {
+ margin-right:  80%
+}
+.arriereplan {
+    height: 90vh;
+    background-color: #034f89;
+}
+.imgdev {
+    height: 30%;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+.container {
+    height: 90vh;
+    top: 320px;
+    background-color: #ffffff;
+    position: absolute
+}
